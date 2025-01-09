@@ -4,7 +4,7 @@ pipeline {
     environment{
         SSH_USER = 'devxonic'
         SSH_HOST = '192.168.100.14'
-        RUN_SUDO = 'export SUDO_ASKPASS=/tmp/mypass.sh'
+        RUN_SUDO = 'export SUDO_ASKPASS=/home/devxonic/secret/mypass.sh'
         APP_NAME = "viteapp";
         // APP_PORT = 5173;
     }
